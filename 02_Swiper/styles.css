@@ -1,3 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .swiper {
     height: 100vh;
+}
+
+.swiper-button-prev {
+    content: url(prev.png);
+}
+
+.swiper-button-next {
+    content: url(next.png);
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
